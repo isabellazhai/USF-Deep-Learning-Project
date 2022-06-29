@@ -18,3 +18,6 @@ The goal of this project is to explore the basics of image detections and apply 
 
 ### Dataset
 
+
+![Model_performance](model_performance_1.jpg)
+
