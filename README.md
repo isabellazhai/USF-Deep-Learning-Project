@@ -8,9 +8,9 @@
   1.1 Goal and Overview<br />
   1.2 Dataset<br />
 2. Modeling<br />
-  2.1 Data Augmentation<br />
-  2.2 CNN<br />
-3. Conclusion and Results<br />
+  2.1 CNN<br />
+  2.2 Model Performances<br />
+3. Conclusion <br />
 
 # Introduction
 ### Goal And Overview
@@ -18,17 +18,23 @@ The goal of this project is to explore the basics of image detections and apply 
 
 ### Dataset
 We found online a nice image dataset with many cute animal faces. Below are some examples: <br />
-Here is a cat
+##### Here is a cat <br />
 ![cat](cat.png) <br />
-Here is a dog
+##### Here is a dog <br />
 ![dog](dog.png) <br />
-Here is a fox
+##### Here is a fox <br />
 ![fox](fox.png) <br />
 There are three main animal categories within this dataset: cat, dog, and wildlife. Animals other than dog or cat (such as a fox) is classified as a wildlie. We are using around 15,000 images for training and around 1,500 images for testing the model performances. One merit of this dataset is that the images are relatively orgainzed in terms of the size. Moreover, animal face takes up the majority of an image, which in some sense should make the classification tasks easier because there is not too much noises (open filed background, legs, bodies, etc.).
 
+# Modeling
+### CNN Model
+
+### Model Performances
 #### Model Performance
 ![Model_performance_1](model_performance_1.jpg)
 
 #### Confusion Matrix
 ![Model_performance_2](model_performance_2.jpg)
+
+# Conclusion
 
