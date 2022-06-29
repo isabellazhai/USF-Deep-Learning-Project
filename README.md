@@ -18,6 +18,9 @@ The goal of this project is to explore the basics of image detections and apply 
 
 ### Dataset
 
+#### Model Performance
+![Model_performance_1](model_performance_1.jpg)
 
-![Model_performance](model_performance_1.jpg)
+#### Confusion Matrix
+![Model_performance_2](model_performance_2.jpg)
 
