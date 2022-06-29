@@ -29,15 +29,17 @@ There are three main animal categories within this dataset: cat, dog, and wildli
 # Modeling
 ### CNN Model
 For this exploration we choose to experiment with a basic **Convolutional Neural Network (CNN)**. The summary of the model is as below:<br />
-![cat](cat.png) <br />
+![summary](summary.png) <br />
 Our model has several layers. The first layer is Conv2D layer with 32 filters and the size of each filter is 3*3.  We also used relu as our activation function and two linear layers at the end. Our final linear layer outputs a tensor with 1 prediction representing the catogory of the animals.
 ### Model Performances
 We are proud to say that we have achieved preety good modeling performances. We found that the best way to understand that is through visualizations, and we have attached two images below to explain our results.
 #### Loss and Accuracy
 ![Model_performance_1](model_performance_1.jpg)
+We can see the train loss and validation loss both decreased quickly before epoch 9. For the left epochs the validation loss tend to fluctuat up and down, but there is not apparent overfitting existing. And after epoch 20, the accuracy of the model on the test data is 96%.
 
 #### Confusion Matrix
 ![Model_performance_2](model_performance_2.jpg)
+The confusion Matrix also shows almost all the classifications done by the model are correct. The identification of dogs pictures seems has the lowest accuracy. Amoung the 500 pictures of dogs in the test data set, 35 pictures are wrongly identified.
 
 # Conclusion
-
+Our model can work well with the pictures that filled with one animal face. 
