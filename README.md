@@ -28,7 +28,9 @@ There are three main animal categories within this dataset: cat, dog, and wildli
 
 # Modeling
 ### CNN Model
-
+For this exploration we choose to experiment with a basic **Convolutional Neural Network (CNN)**. The summary of the model is as below:<br />
+![cat](cat.png) <br />
+Our model has several layers. The first layer is Conv2D layer with 32 filters and the size of each filter is 3*3.  We also used relu as our activation function and two linear layers at the end. Our final linear layer outputs a tensor with 1 prediction representing the catogory of the animals.
 ### Model Performances
 We are proud to say that we have achieved preety good modeling performances. We found that the best way to understand that is through visualizations, and we have attached two images below to explain our results.
 #### Loss and Accuracy
