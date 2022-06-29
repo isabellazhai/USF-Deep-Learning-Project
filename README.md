@@ -5,7 +5,7 @@
 
 # Overview
 1. Introduction
-  /n 1.1 Goal
+  \n 1.1 Goal
   1.2 Dataset
 2. Modeling
   2.1 Data Augmentation
