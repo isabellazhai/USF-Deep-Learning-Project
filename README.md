@@ -13,10 +13,13 @@
 3. Conclusion and Results<br />
 
 # Introduction
-### Goal
+### Goal And Overview
 The goal of this project is to explore the basics of image detections and apply deep learning techniques to classify animal images into different categories. Why we do this? Because animals (especially cats) are cute! Before the modeling, we included a step of data augmentations on the original animal dataset in order to increase the amount of data by adding slightly modified copies of already existing data or newly created synthetic data from existing data. It acts as a regularizer and helps reduce overfitting when training a machine learning model. We then applied a CNN model on our image dataset using Tensorflow. We picked Tensorflow instead of Pytorch because both of the team member felt that the former one had easier UI to work with. <br />
 
 ### Dataset
+We found online a nice image dataset with many cute animal faces. Below are some examples: <br />
+![Model_performance_1](model_performance_1.jpg)
+![Model_performance_2](model_performance_2.jpg)
 
 #### Model Performance
 ![Model_performance_1](model_performance_1.jpg)
