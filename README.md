@@ -18,8 +18,8 @@ The goal of this project is to explore the basics of image detections and apply 
 
 ### Dataset
 We found online a nice image dataset with many cute animal faces. Below are some examples: <br />
-![Model_performance_1](model_performance_1.jpg)
-![Model_performance_2](model_performance_2.jpg)
+![Model_performance_1](cat.jpg)
+![Model_performance_2](dog.jpg)
 
 #### Model Performance
 ![Model_performance_1](model_performance_1.jpg)
