@@ -42,4 +42,4 @@ We can see the train loss and validation loss both decreased quickly before epoc
 The confusion Matrix also shows almost all the classifications done by the model are correct. The identification of dogs pictures seems has the lowest accuracy. Amoung the 500 pictures of dogs in the test data set, 35 pictures are wrongly identified.
 
 # Conclusion
-Our model can work well with the pictures that filled with one animal face. 
+This has been an overall fun journey. We both enjoyed working with this dataset of cute animal faces. One of the struggles we encountered is getting ourselves familiar with the Tensorflow UI and functionalities, but the experience turned out very rewarding and provided us a chance to pick up this new tool. We are proud that our model can work well with the pictures and rendered satisfying model performances.
